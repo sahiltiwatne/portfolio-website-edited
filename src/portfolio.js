@@ -215,22 +215,68 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   projects: [
     {
       image: require("./assets/images/myjiobplogo.png"),
       projectName: "My Jio-Bp Customer Application",
-      projectDesc: "A cross platform mobile application which locates near by Jio-Bp pumps , manage bookings , books fuel for slots , sned notifications and handles many more features",
+      projectDesc: "A cross platform mobile application which locates near by Jio-Bp pumps , manage bookings , books fuel for slots , send notifications and handles many more features",
       footerLink: [
         {
           name: "Visit GitHub",
-          url: "https://github.com/sahiltiwatne"
+          url: "https://github.com/sahiltiwatne/Jio-Bp_Customer_App"
         }
-        //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/powerbi.png"),
+      projectName: "Amazon Sales Dashboard",
+      projectDesc: "This Power BI project presents a detailed and interactive dashboard for analyzing Amazon sales data across different categories, regions, and KPIs. It helps users visualize key insights, track business performance, and make data-driven decisions.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/sahiltiwatne/PowerBI-Sales-Dashboard/tree/main"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/portfolio.jpg"),
+      projectName: "Portfolio Website",
+      projectDesc: "Personal portfolio website to showcase projects, Internships, Skills, resume, and contact information using Javascript,React.",
+      footerLink: [
+        {
+          name: "Live Site",
+          url: "https://wonderful-quokka-494446.netlify.app/#contact"
+        },
+        
+      ]
+    },
+    {
+      image: require("./assets/images/passwordstrength.png"),
+      projectName: "Password Strength Checker",
+      projectDesc: "Live site to check how strong your password is , with real time analysis of password length , upper case , lower case , special characers with interactive design.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/sahiltiwatne/password-project"
+        },
+        
+      ]
+    },
+    {
+      image: require("./assets/images/gmail.png"),
+      projectName: "Gmail Fetcher",
+      projectDesc: "Python based application that fetches gmail from particular domain , extract email into multiple fields and create tickets from them.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/sahiltiwatne/gmail-fetcher"
+        },
+        
+      ]
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
