@@ -129,7 +129,7 @@ const educationInfo = {
   schools: [
     {
   schoolName: "Amity University",
-  logo: require("./assets/images/amitylogo2.jpg"),
+  logo: require("./assets/images/amity.jpg"),
   subHeader: "Bachelor of Technology in Computer Science & Engineering",
   duration: "July 2022 - May 2026",
   desc: "Gained a strong foundation in full-stack development and data-driven problem solving through academic projects, internships, and real-world applications.",
